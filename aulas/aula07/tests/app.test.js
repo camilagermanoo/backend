@@ -29,11 +29,6 @@ describe('Testes da API tarefas', () => {
         const response = await request.get(` /tarefas/${id}`)
         expect(response.status).toBe(200)
     })
-
-
-
-
-
 })
 
 
