@@ -1,7 +1,9 @@
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+
 const apidocsRouter = require('./routes/apidocs')
+const tarefasRouter = require('./routes/tarefaRouter')
 
 const app = express()
 
